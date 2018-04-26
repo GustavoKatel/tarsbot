@@ -1,0 +1,5 @@
+{
+    "cmdlets": [
+        "./cmdlets/echo.js"
+    ]
+}
