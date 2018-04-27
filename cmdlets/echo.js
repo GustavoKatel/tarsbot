@@ -1,3 +1,4 @@
+const Markup = require('telegraf/markup')
 
 module.exports = {
     name: 'echo',
@@ -8,9 +9,11 @@ module.exports = {
         });
     },
 
-    activate: function(ctx) {
-        
-    },
+    buttons: [
+    ],
 
+    inlineButtons: [
+    ],
+    
     help: '/echo <message>'
 }

@@ -1,5 +1,6 @@
 {
     "cmdlets": [
-        "./cmdlets/echo.js"
+        "./cmdlets/echo.js",
+        "./cmdlets/pomodoro.js"
     ]
 }
