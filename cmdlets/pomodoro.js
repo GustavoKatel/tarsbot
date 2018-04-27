@@ -91,7 +91,8 @@ const pomodoro = {
                     total = Math.floor((diff / 1000) / 60);
                 }
                 
-                msg += `_Total_: ${total/60}h${total%60}m\n`;
+                let h = Math.floor(total/60);
+                msg += `_Total_: ${h}h${total%60}m\n`;
                 
                 ctx.replyWithMarkdown(msg);
             }
