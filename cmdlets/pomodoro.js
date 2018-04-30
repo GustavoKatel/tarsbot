@@ -89,6 +89,7 @@ const pomodoro = {
                     let end = pomodoro.pomodoroConfig.end || new Date();
                     let diff = Math.abs(end - pomodoro.pomodoroConfig.start);
                     total = Math.floor((diff / 1000) / 60);
+                    total -= lunchInterval;
                 }
                 
                 let h = Math.floor(total/60);

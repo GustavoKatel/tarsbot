@@ -21,7 +21,6 @@ app.start((ctx) => {
     .keyboard(buttons, {
         columns: 3
     })
-    .oneTime()
     .resize()
     .extra()
 );
